@@ -41,32 +41,44 @@ public class ConditionalStatement {
         // System.out.println(tax);
 
         // ?calculator
-        System.out.println("------------------------------");
-        System.out.print("num1 , num2 :");
-        int num1 = sc.nextInt();
-        int num2 = sc.nextInt();
-        System.out.println("Choose Operator: +,-,x,/");
-        char operator = sc.next().charAt(0);
+        // System.out.println("------------------------------");
+        // System.out.print("num1 , num2 :");
+        // int num1 = sc.nextInt();
+        // int num2 = sc.nextInt();
+        // System.out.println("Choose Operator: +,-,x,/");
+        // char operator = sc.next().charAt(0);
 
-        switch (operator) {
-            case '+':
-                System.out.println(num1 + num2);
-                break;
-            case '-':
-                System.out.println(num1 - num2);
-                break;
-            case '*':
-                System.out.println(num1 * num2);
-                break;
-            case '/':
-                System.out.println(num1 / num2);
-                break;
+        // switch (operator) {
+        // case '+':
+        // System.out.println(num1 + num2);
+        // break;
+        // case '-':
+        // System.out.println(num1 - num2);
+        // break;
+        // case '*':
+        // System.out.println(num1 * num2);
+        // break;
+        // case '/':
+        // System.out.println(num1 / num2);
+        // break;
 
-            default:
-                System.err.println("Wrong Operator");
-                break;
-        }
-        System.out.println("------------------------------");
+        // default:
+        // System.err.println("Wrong Operator");
+        // break;
+        // }
+        // System.out.println("------------------------------");
+
+        // (-)&(+) numbers
+
+        // int number = sc.nextInt();
+
+        // if (number < 0) {
+        //     System.out.println("(-) Numbers");
+        // }
+
+        // else {
+        //     System.out.println("(+) Numbers");
+        // }
 
         sc.close();
     }

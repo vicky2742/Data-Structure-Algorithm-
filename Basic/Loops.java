@@ -14,13 +14,25 @@ public class Loops {
         // System.out.println();
         // }
 
+        // do {
+        //     System.out.print("enter the number: ");
+        //     int num = sc.nextInt();
+
+        //     if (num % 10 == 0) {
+        //         System.out.println("You entered the Multiplie of 10");
+        //         break;
+        //     }
+
+        // } while (true);
+
+
         do {
             System.out.print("enter the number: ");
             int num = sc.nextInt();
 
             if (num % 10 == 0) {
                 System.out.println("You entered the Multiplie of 10");
-                break;
+            continue;
             }
 
         } while (true);

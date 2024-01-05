@@ -42,5 +42,10 @@ public class Loops {
             System.out.println("Hello");
             i += 2;
         }
+
+        
+
+
+        sc.close();
     }
 }

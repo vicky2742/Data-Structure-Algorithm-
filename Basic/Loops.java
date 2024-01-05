@@ -15,27 +15,32 @@ public class Loops {
         // }
 
         // do {
-        //     System.out.print("enter the number: ");
-        //     int num = sc.nextInt();
+        // System.out.print("enter the number: ");
+        // int num = sc.nextInt();
 
-        //     if (num % 10 == 0) {
-        //         System.out.println("You entered the Multiplie of 10");
-        //         break;
-        //     }
+        // if (num % 10 == 0) {
+        // System.out.println("You entered the Multiplie of 10");
+        // break;
+        // }
 
         // } while (true);
 
+        // do {
+        // System.out.print("enter the number: ");
+        // int num = sc.nextInt();
 
-        do {
-            System.out.print("enter the number: ");
-            int num = sc.nextInt();
+        // if (num % 10 == 0) {
+        // System.out.println("You entered the Multiplie of 10");
+        // continue;
+        // }
 
-            if (num % 10 == 0) {
-                System.out.println("You entered the Multiplie of 10");
-            continue;
-            }
+        // } while (true);
 
-        } while (true);
-        
+        // -------------------questions-----------------------
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Hello");
+            i += 2;
+        }
     }
 }

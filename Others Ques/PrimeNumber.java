@@ -60,5 +60,7 @@ public class PrimeNumber {
         // System.out.println(isPrime(num));
         primeInRange(num);
 
+        sc.close();
+
     }
 }

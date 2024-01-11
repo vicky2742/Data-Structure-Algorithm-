@@ -42,7 +42,7 @@ class FlowChart {
         // TODO: ques3 prime number
 
         System.out.print("number :");
-        int n = sc.nextInt();
+        // int n = sc.nextInt();
 
         // ! sum of n natural number
 

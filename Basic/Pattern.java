@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Pattern {
     public static void main(String[] args) {
@@ -7,21 +7,21 @@ public class Pattern {
         // int n = sc.nextInt();
 
         // for (int i = 0; i < n; i++) {
-        //     for (int j = i; j < n; j++) {
-        //         System.out.print("*");
+        // for (int j = i; j < n; j++) {
+        // System.out.print("*");
 
-        //     }
-        //     System.out.println();
+        // }
+        // System.out.println();
 
         // }
 
-            //! type conversion
+        // ! type conversion
         // int a=5;
         // long b=a;//right
         // int c=b;//not possible
         // System.out.println(c);
 
-        //! type casting
+        // ! type casting
 
         // float x=27.23f;
 
@@ -30,11 +30,11 @@ public class Pattern {
         // System.out.println(y);
         // System.out.println(z);
 
-        char a='a';
-        short b=50;
-        System.out.println((int)a);
-        System.out.println((int)b);
-        System.out.println(a+b);
+        char a = 'a';
+        short b = 50;
+        System.out.println((int) a);
+        System.out.println((int) b);
+        System.out.println(a + b);
 
     }
 }

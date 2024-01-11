@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Week2Ques {
     public static void main(String[] args) {
-        //ques1
+        // ques1
 
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         // System.out.print("enter num1,num2,num3:");
         // int num1=sc.nextInt();
         // int num2=sc.nextInt();
@@ -13,7 +13,7 @@ public class Week2Ques {
         // int avg=(num1+num2+num3)/3;
         // System.out.println("average :"+avg);
 
-        //!ques2
+        // !ques2
 
         // int side1=sc.nextInt();
         // int side2=sc.nextInt();
@@ -21,15 +21,15 @@ public class Week2Ques {
         // int area=side1*side2;
         // System.out.println("area of square:"+area);
 
-        //*ques3
+        // *ques3
 
-    //     float pencil=sc.nextFloat();
-    //     float pen=sc.nextFloat();
-    //     float eraser=sc.nextFloat();
+        // float pencil=sc.nextFloat();
+        // float pen=sc.nextFloat();
+        // float eraser=sc.nextFloat();
 
-    //     double totalCost=(pencil+pen+eraser);
+        // double totalCost=(pencil+pen+eraser);
 
-    //   System.out.println(totalCost);
+        // System.out.println(totalCost);
 
         // ques4
 
@@ -40,12 +40,12 @@ public class Week2Ques {
         // float e=12.2f;
         // double f=99.999;
 
-        int $=3444;//valid
-        int v=6;//valid
-        int $vh=7;//valid
-        int _vj=77;//valid
+        // int $ = 3444;//! valid
+        // int v = 6;//! valid
+        // int $vh = 7;//! valid
+        // int _vj = 77;//! valid
 
-        int 4v=66;//not valid
+        // int 4v = 66;// not valid
 
         System.out.println();
         // double res=(f*b)+(d%a)-(b*c);

@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class Arr {
     public static void main(String[] args) {
 
-        int[] arr = { 1, 2, 3, 4, 5 };// valid
-        int arr1[] = { 1, 2, 3, 4, 5 };// valid
+        // int[] arr = { 1, 2, 3, 4, 5 };// valid
+        // int arr1[] = { 1, 2, 3, 4, 5 };// valid
         int arr2[] = new int[2];// valid
         arr2[0] = 90;
         arr2[1] = 90;
         // dynamically
         int arr3[] = new int[5];
         int arr4[] = new int[] { 1, 2, 3, 4, 5 };
-        int arr5[];
-        arr5 = new int[5];
+        // int arr5[];
+        // arr5 = new int[5];
         System.out.println(arr4[2]);// access single elements
 
         // * taking input

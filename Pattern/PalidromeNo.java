@@ -22,5 +22,6 @@ public class PalidromeNo {
             System.out.println();
 
         }
+        sc.close();
     }
 }

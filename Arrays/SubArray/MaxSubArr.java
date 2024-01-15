@@ -1,4 +1,5 @@
 
+
 public class MaxSubArr {
 
     public static void maxSubArray(int arr[]) {
@@ -6,13 +7,13 @@ public class MaxSubArr {
         int currSum = 0;
         int maxSum = Integer.MIN_VALUE;
 
-        // ?FIRST LOOP
+        // ! Start loop
         for (int i = 0; i < arr.length; i++) {
 
-            // * SECOND LOOP
+            // ! End loop
             for (int j = i; j < arr.length; j++) {
 
-                // !PRINT LOOP
+                // ! Print loop
                 currSum = 0;
 
                 for (int j2 = i; j2 <= j; j2++) {

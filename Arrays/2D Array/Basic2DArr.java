@@ -10,6 +10,7 @@ public class Basic2DArr {
                 matrix[i][j] = sc.nextInt();
             }
         }
+        sc.close();
     }
 
     public static void matrixOuput(int matrix[][]) {

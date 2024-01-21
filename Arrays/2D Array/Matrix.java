@@ -43,5 +43,7 @@ public class Matrix {
         // Arrays.equals(a,b);
         searching(matrix, 3);
 
+        sc.close();
+
     }
 }

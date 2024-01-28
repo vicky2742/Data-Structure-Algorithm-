@@ -1,10 +1,10 @@
-import java.util.*;
+// import java.util.*;
 
 public class MoveNegNumberLeft {
     public static void moveNumLeft(int arr[]) {
-
+        // !logic 1
         // Arrays.sort(arr);
-
+        // *logic 2
         int j = 0, temp;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < 0 && i != j) {

@@ -1,5 +1,4 @@
 
-
 public class AddFirst {
     public static class Node {
         int data;
@@ -32,12 +31,12 @@ public class AddFirst {
     }
 
     public void printLinkedList() {
-        
+
         if (head == null) {
             System.out.println("Linked list Empty");
             return;
         }
-        
+
         Node temp = head;
 
         while (temp != null) {

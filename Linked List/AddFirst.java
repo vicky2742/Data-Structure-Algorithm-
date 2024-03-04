@@ -33,14 +33,14 @@ public class AddFirst {
     public void printLinkedList() {
 
         if (head == null) {
-            System.out.println("Linked list Empty");
+            System.out.print("Linked list Empty");
             return;
         }
 
         Node temp = head;
 
         while (temp != null) {
-            System.out.print(temp.data + "->");
+            System.out.print(temp.data + " -> ");
             temp = temp.next;
         }
         System.out.println("null");

@@ -1,7 +1,7 @@
 
 public class Palindrome {
     static boolean palindrome(int num) {
-        
+
         int reverse = 0, original, digit;
         original = num;
 

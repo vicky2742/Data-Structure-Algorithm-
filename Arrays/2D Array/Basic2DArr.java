@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Basic2DArr {
+    static Scanner sc = new Scanner(System.in);
 
     public static void matrixInput(int matrix[][]) {
-        Scanner sc = new Scanner(System.in);
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix.length; j++) {

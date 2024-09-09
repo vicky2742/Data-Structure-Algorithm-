@@ -1,5 +1,7 @@
 
 public class AddFirst {
+
+    // * Node class
     public static class Node {
         int data;
         Node next;
@@ -13,7 +15,8 @@ public class AddFirst {
     public static Node head;
     public static Node tail;
 
-    // *method
+    // *------------method---------------
+    // ?add first
 
     public void addFirst(int data) {
 
@@ -29,7 +32,7 @@ public class AddFirst {
         // !step3- head=newNode
         head = newNode;
     }
-
+    //?print linked list
     public void printLinkedList() {
 
         if (head == null) {
@@ -46,7 +49,7 @@ public class AddFirst {
         System.out.println("null");
 
     }
-
+    
     public static void main(String[] args) {
         AddFirst ll = new AddFirst();
         // ll.headnNode = new Node(1);
